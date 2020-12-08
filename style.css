@@ -1,0 +1,249 @@
+/* html5doctor.com Reset Stylesheet v1.6.1 Last Updated: 2010-09-17 */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong,
+sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header,
+hgroup, menu, nav, section, summary, time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+body {line-height:1;}
+article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section
+{display:block;}
+nav ul {list-style:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after {
+content:'';
+content:none;}
+a {
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;}
+/* change colors to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;}
+ /* change colors to suit your needs */
+mark {
+background-color:#ff9;
+color:#000;
+font-style:italic;
+font-weight:bold;}
+del {text-decoration: line-through;}
+abbr[title], dfn[title] {
+border-bottom:1px dotted;
+cursor:help;}
+table {
+border-collapse:collapse;
+border-spacing:0;}
+/* change border color to suit your needs */
+hr {
+display:block;
+height:1px;
+border:0;
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;}
+input, select { vertical-align:middle;}
+
+
+
+
+
+
+
+
+
+/********************************************************** stylesheet start ********************************************************/
+
+
+body
+{
+    background-color: #C4D6E9;
+    font-family: "Verdana Pro Cond Black", "Arial Black", "Tw Cen MT Condensed", sans-serif;
+    font-size: 14pt;
+    font-weight: normal;
+    color: rgb(75, 74, 74);
+}
+
+a
+{
+    color: #0a0a0a;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+.image
+{
+    display: inline-block;
+    width: 100%;
+}
+
+.image img
+{
+    display: block;
+    width: 100%;
+}
+
+#wrapper
+{
+    background: #EED6E9;
+}
+
+#header
+{
+    color: rgb(102, 101, 101));
+    overflow: hidden;
+    background-size: 100%;
+    text-align: center;
+    position: relative;
+    width: 500px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 2em 0em;
+    text-transform: uppercase;
+}
+
+#main_title h1
+{
+    letter-spacing: 0.10em;
+    font-size: 3em;
+}
+
+#main_title a
+{
+    text-decoration: none;
+}
+
+#navigation 
+{
+width:100%;
+height:35px;
+background-color:#C4D6E9;
+overflow: hidden;
+}
+
+#navigation ul 
+{
+margin:0;
+padding:0;
+line-height: normal;
+text-align: center;
+}
+
+#navigation ul li
+{
+display:inline;
+}
+
+#navigation ul li a
+{
+    letter-spacing: 1px;
+    padding: 0px 40px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.80em;
+}
+
+.click:hover
+{
+    background: #adc7e4; 
+}
+
+.current_page
+{
+    background: #adc7e4; 
+}
+
+#banner
+{
+    overflow: hidden;
+    height: 400px;
+    background: url(images/banner.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+#content
+{
+    background: #EED6E9;
+    overflow: hidden;
+    
+}
+
+#portfolio
+{
+    overflow: hidden;
+}
+
+#portfolio .title h2
+{
+    font-size: 30px;
+    color: black;
+}
+
+#box1,#box2,#box3,#box4
+{
+    width: 282px;
+}
+
+#box1,#box2,#box3, #box4
+{
+    float: left;
+    margin-left: 60px;
+}
+
+.title h2
+{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sub_content
+{
+    text-align: center;
+    color:rgb(247, 129, 158);
+    font-size: 20pt;
+}
+
+#footer
+{
+    overflow: hidden;
+    padding: 3em 0em;
+    background: #C4D6E9;
+    text-align: center;
+}
+
+#footer p
+{
+    letter-spacing: 0.20em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 8pt;
+    color:black;
+}
+
+#ex_img
+{
+    float: left;
+    margin-left: 100px;
+}
+
+#ex_content
+{
+    float: right;
+    margin-right: 10px;
+
+}
